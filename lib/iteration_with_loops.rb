@@ -6,7 +6,7 @@ def join_nested_strings(src)
   while counter < src.count do
     inner_counter = 0 
     while inner_counter < src[counter].count do
-      if src[counter][inner_counter].is_a?(String){
+      if src[counter][inner_counter].class == String{
         result = result + ' ' + src[counter][inner_counter]
       }
       inner_counter += 1 
