@@ -12,4 +12,5 @@ def join_nested_strings(src)
       inner_counter += 1 
     end
     counter += 1 
-  end
+ end
+end 
